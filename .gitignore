@@ -1,0 +1,20 @@
+# Ambiente virtual do Hermes/UV
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Arquivos de teste locais (opcional, para não poluir o repo)
+app.py
+log.txt# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos locais do harness
+.claude/settings.local.json
+.antigravity/
+*.local
+
+# Logs e temporários
+*.log
+.tmp/
